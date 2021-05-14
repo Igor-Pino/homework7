@@ -24,23 +24,22 @@
   }
   
   .footer-socials {
-   
     width: 270px;
   }
+
   .footer-socials-block {
     margin-left: 69px;
   }
   
   .footer-socials__title { 
     margin-bottom: 20px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: $second-text-accent-color;
   }
-  
-  
   
   .social-nets__link--footer {
     background: $background-color-socials;
@@ -57,14 +56,15 @@
   }
   
   .sign__label {
+    display: inline-flex;
+    margin-bottom: 20px;
+    margin-left: 0;
+
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     color: $body-background-color;
-    display: inline-flex;
-    margin-bottom: 20px;
-    margin-left: 0;
   }
   
   .sign__field {
@@ -72,11 +72,14 @@
     width: 358px;
     height: 50px;
     padding: 15px 16px;
+
+    color: $body-background-color;
+
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, .3);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, .15);
     border-radius: 4px;
-    color: $body-background-color;
+    
     outline: none;
   }
   
@@ -88,10 +91,11 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border-style: none;
     margin: 0;  
     min-width: 200px;
     min-height: 50px;
+
+    border-style: none;
   
     text-align: center;
     font-weight: 700;
@@ -100,7 +104,7 @@
     letter-spacing: 0.06em;
     color: $second-text-accent-color;
   
-   background-color: $accent-text-color;
+    background-color: $accent-text-color;
   
-   border-radius: 4px;
-}
+    border-radius: 4px;
+  }
